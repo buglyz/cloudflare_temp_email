@@ -21,7 +21,7 @@ keep_vars = true
 # send_email = [
 #    { name = "SEND_MAIL" },
 # ]
-# SEND_MAIL_DOMAINS = ["fleey.cc.cd", "mail.example.com"]
+# SEND_MAIL_DOMAINS = ["fleey.cc.cd"]
 
 [vars]
 # DEFAULT_LANG = "zh"
@@ -49,7 +49,7 @@ PREFIX = "tmp"
 # ADMIN_CONTACT = "xx@xx.xxx"
 # Create new address with default domain first, if set true, will use first domain from DEFAULT_DOMAINS when no domain specified
 # CREATE_ADDRESS_DEFAULT_DOMAIN_FIRST = false
-DEFAULT_DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # domain name for no role users
+DEFAULT_DOMAINS = ["fleey.cc.cd" ] # domain name for no role users
 DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
 # Allow /api/new_address and /admin/new_address to accept subdomains that end with an allowed base domain
 # e.g. if DOMAINS contains "abc.com", API can accept "team.abc.com" and "dev.team.abc.com"
