@@ -21,7 +21,7 @@ keep_vars = true
 # send_email = [
 #    { name = "SEND_MAIL" },
 # ]
-# SEND_MAIL_DOMAINS = ["example.com", "mail.example.com"]
+# SEND_MAIL_DOMAINS = ["fleey.cc.cd", "mail.example.com"]
 
 [vars]
 # DEFAULT_LANG = "zh"
@@ -67,7 +67,7 @@ DOMAINS = ["xxx.xxx1" , "xxx.xxx2"] # all domain names
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "vip", prefix = "vip" },
 #    { domains = ["xxx.xxx1" , "xxx.xxx2"], role = "admin", prefix = "" },
 # ]
-JWT_SECRET = "xxx"
+JWT_SECRET = "56U99lEmhwA99nK28OyFvXXPLwddIivcdBrmHnPzyPkA45MxOlAEtIL1POixM5dD"
 BLACK_LIST = ""
 # Allow users to create email addresses
 ENABLE_USER_CREATE_EMAIL = true
@@ -159,8 +159,8 @@ ENABLE_AUTO_REPLY = false
 
 [[d1_databases]]
 binding = "DB"
-database_name = "xxx"
-database_id = "xxx"
+database_name = "mail2"
+database_id = "8ebd8409-1c95-49a4-9cc1-379d071e59e5"
 
 # Workers AI binding (required for AI email extraction)
 # [ai]
